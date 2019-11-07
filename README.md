@@ -11,11 +11,10 @@
     ```bash
     $ docker build --tag=kierra/wizeline_hometask:latest .
     ```
-  - Or Pull container from DockerHub repository
+  - Or pull container from DockerHub repository
     ```bash
     $ docker pull kierra/wizeline_hometask:latest
     ```
-
   - Run container
     ```bash
     $ docker run -p 5920:5920 -d -ti --rm --name home-task kierra/wizeline_hometask:latest
