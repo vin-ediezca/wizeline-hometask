@@ -17,7 +17,7 @@
     ```
   - Run container
     ```bash
-    $ docker run -p 5920:5920 -d -ti --rm --name home-task kierra/wizeline_hometask:latest
+    $ docker run -p 5920:5920 -d -ti --rm --name home-task -v /dev/shm:/dev/shm kierra/wizeline_hometask:latest
     ```
 
 #### 2. Run VNC Server (OPTIONAL)
